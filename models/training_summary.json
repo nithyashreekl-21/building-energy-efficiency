@@ -1,0 +1,117 @@
+{
+    "random_state": 42,
+    "features": [
+        "relative_compactness",
+        "surface_area",
+        "wall_area",
+        "roof_area",
+        "overall_height",
+        "orientation",
+        "glazing_area",
+        "glazing_area_distribution"
+    ],
+    "targets": [
+        "heating_load",
+        "cooling_load"
+    ],
+    "models": {
+        "heating_load": {
+            "best_model": "random_forest",
+            "algorithms": {
+                "linear_regression": {
+                    "name": "Linear Regression",
+                    "metrics": {
+                        "train_r2": 0.9170648846622238,
+                        "train_mae": 2.0413636834362516,
+                        "train_rmse": 2.893118785420839,
+                        "test_r2": 0.9121846294352438,
+                        "test_mae": 2.1820729961539005,
+                        "test_rmse": 3.0254268535103734
+                    }
+                },
+                "decision_tree": {
+                    "name": "Decision Tree Regressor",
+                    "metrics": {
+                        "train_r2": 0.9976271547886199,
+                        "train_mae": 0.3416953901654649,
+                        "train_rmse": 0.4893636909332234,
+                        "test_r2": 0.997323427342492,
+                        "test_mae": 0.40844921776999893,
+                        "test_rmse": 0.528190890407951
+                    }
+                },
+                "random_forest": {
+                    "name": "Random Forest Regressor",
+                    "metrics": {
+                        "train_r2": 0.9994536052621869,
+                        "train_mae": 0.1543801082263979,
+                        "train_rmse": 0.23482822359695557,
+                        "test_r2": 0.9975847129239533,
+                        "test_mae": 0.35780993001947503,
+                        "test_rmse": 0.5017481350674036
+                    }
+                },
+                "svr": {
+                    "name": "Support Vector Regression (SVR)",
+                    "metrics": {
+                        "train_r2": 0.9960106363578969,
+                        "train_mae": 0.37972233684457835,
+                        "train_rmse": 0.634525166033548,
+                        "test_r2": 0.9948216296122925,
+                        "test_mae": 0.561396081044663,
+                        "test_rmse": 0.7346795367127523
+                    }
+                }
+            }
+        },
+        "cooling_load": {
+            "best_model": "random_forest",
+            "algorithms": {
+                "linear_regression": {
+                    "name": "Linear Regression",
+                    "metrics": {
+                        "train_r2": 0.8859210323606215,
+                        "train_mae": 2.253139250388311,
+                        "train_rmse": 3.1981573362596545,
+                        "test_r2": 0.8932255268607289,
+                        "test_mae": 2.1952952105158765,
+                        "test_rmse": 3.14538195581142
+                    }
+                },
+                "decision_tree": {
+                    "name": "Decision Tree Regressor",
+                    "metrics": {
+                        "train_r2": 0.9750406639347486,
+                        "train_mae": 0.9161874659234484,
+                        "train_rmse": 1.4959378424731788,
+                        "test_r2": 0.9616462068379548,
+                        "test_mae": 1.1951492999154447,
+                        "test_rmse": 1.8851409754655002
+                    }
+                },
+                "random_forest": {
+                    "name": "Random Forest Regressor",
+                    "metrics": {
+                        "train_r2": 0.9923270045284586,
+                        "train_mae": 0.49087251424697215,
+                        "train_rmse": 0.8294295525613943,
+                        "test_r2": 0.9661917209411074,
+                        "test_mae": 1.1045078483583515,
+                        "test_rmse": 1.7699100882492582
+                    }
+                },
+                "svr": {
+                    "name": "Support Vector Regression (SVR)",
+                    "metrics": {
+                        "train_r2": 0.9782140613723604,
+                        "train_mae": 0.7837780591513592,
+                        "train_rmse": 1.3976073379842984,
+                        "test_r2": 0.9655535026795132,
+                        "test_mae": 1.1369296538562066,
+                        "test_rmse": 1.7865377860872325
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,86 @@
+[
+    {
+        "id": "VAL_1795102796",
+        "timestamp": "2026-11-19T21:09:56.162505",
+        "stakeholder_name": "Ramesh Patel",
+        "stakeholder_role": "Mason / Local Contractor",
+        "location": "Sector 7 Community Housing Site",
+        "project_stage": "Pre-Construction / Planning",
+        "changeable_parameters": [
+            "glazing_area",
+            "glazing_area_distribution"
+        ],
+        "fixed_parameters": [
+            "relative_compactness",
+            "surface_area",
+            "wall_area",
+            "roof_area",
+            "overall_height",
+            "orientation"
+        ],
+        "observations": "Plot boundary is tightly constrained so orientation and height are locked. Window sizes can be reduced or shaded easily."
+    },
+    {
+        "id": "VAL_1795103204",
+        "timestamp": "2026-11-19T21:16:44.987328",
+        "stakeholder_name": "Integration Test Architect",
+        "stakeholder_role": "Architect / Building Designer",
+        "location": "Test Site Block A",
+        "project_stage": "Pre-Construction / Planning",
+        "changeable_parameters": [
+            "glazing_area",
+            "glazing_area_distribution"
+        ],
+        "fixed_parameters": [
+            "relative_compactness",
+            "surface_area",
+            "wall_area",
+            "roof_area",
+            "overall_height",
+            "orientation"
+        ],
+        "observations": "Orientation must be locked due to access road."
+    },
+    {
+        "id": "VAL_1795151140",
+        "timestamp": "2026-11-20T10:35:40.562656",
+        "stakeholder_name": "Integration Test Architect",
+        "stakeholder_role": "Architect / Building Designer",
+        "location": "Test Site Block A",
+        "project_stage": "Pre-Construction / Planning",
+        "changeable_parameters": [
+            "glazing_area",
+            "glazing_area_distribution"
+        ],
+        "fixed_parameters": [
+            "relative_compactness",
+            "surface_area",
+            "wall_area",
+            "roof_area",
+            "overall_height",
+            "orientation"
+        ],
+        "observations": "Orientation must be locked due to access road."
+    },
+    {
+        "id": "VAL_1795153599",
+        "timestamp": "2026-11-20T11:16:39.329928",
+        "stakeholder_name": "Integration Test Architect",
+        "stakeholder_role": "Architect / Building Designer",
+        "location": "Test Site Block A",
+        "project_stage": "Pre-Construction / Planning",
+        "changeable_parameters": [
+            "glazing_area",
+            "glazing_area_distribution"
+        ],
+        "fixed_parameters": [
+            "relative_compactness",
+            "surface_area",
+            "wall_area",
+            "roof_area",
+            "overall_height",
+            "orientation"
+        ],
+        "observations": "Orientation must be locked due to access road."
+    }
+]
